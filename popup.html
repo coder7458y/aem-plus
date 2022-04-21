@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css" type="text/css" />
+  <script src="background.js"></script>
+</head>
+
+<body>
+  <div class="header">
+      <img class='logo' src="logo.png">
+      <h1>aem+</h1>
+  </div>
+  <div>
+
+    <!-- WCM Modes -->
+    <div class='content red'>
+      <p id='wcm-mode-disabled' class='button'><i class="material-icons">do_not_disturb</i> WCM Disabled</p>
+    </div>
+    <div class='content green'>
+      <p id='wcm-mode-edit' class='button'><i class="material-icons">edit</i> WCM Edit</p>
+    </div>
+    <div class='content orange'>
+      <p id='wcm-mode-design' class='button'><i class="material-icons">wallpaper</i> WCM Design</p>
+    </div>
+    <div class='content blue'>
+      <p id='wcm-mode-preview' class='button'><i class="material-icons">visibility</i> WCM Preview</p>
+    </div>
+
+    <!-- Navigation & Clientlibs -->
+      <div class='content pink'>
+        <p id='client-lib' class='button'><i class="material-icons">code</i> Clientlibs</p>
+      </div>
+      <div class='content brown'>
+        <p id='editor' class='button'><i class="material-icons">format_size</i> Editor.html</p>
+      </div>
+      <div class='content black'>
+        <p id='crxde' class='button'><i class="material-icons">cloud_upload</i> CRXDE</p>
+      </div>
+      <div class='content purple'>
+        <p id='logs' class='button'><i class="material-icons">short_text</i> Logs</p>
+      </div>
+  </div>
+</body>
+
+</html>

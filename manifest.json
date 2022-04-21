@@ -1,0 +1,13 @@
+{
+  "name": "aem+",
+  "description": "No.1 - Chrome Extension for Adobe Experience Manager.",
+  "version": "3.0",
+  "manifest_version": 2,
+  "permissions": [
+          "tabs"
+        ],
+  "browser_action": {
+    "default_icon": "logo.png",
+    "default_popup": "popup.html"
+  }
+}

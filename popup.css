@@ -1,0 +1,96 @@
+/* Body */
+body {
+  width: 320px;
+  margin: 0;
+  padding: 0;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica";
+}
+
+/* Sections */
+.header {
+  background: white;
+  margin-left: 20px;
+}
+
+.content {
+  line-height: 50px;
+  height: 50px;
+}
+
+.content:hover {
+  background-color: white;
+}
+
+.content:hover > p {
+  color: black;
+}
+
+.button {
+  margin: 0;
+  padding: 0 0 0 20px;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+/* Headings */
+h1 {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h2 {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Colours */
+.green {
+  background-color: #01cd74;
+}
+
+.red {
+  background-color: #fc636b;
+}
+
+.orange {
+  background-color: #feba02;
+}
+
+.blue {
+  background-color: #009fe3;
+}
+
+.black {
+  background-color: #000000;
+}
+
+.pink {
+  background-color: #ee70a6;
+}
+
+.purple {
+  background-color: #8a8acb;
+}
+
+.brown {
+  background-color: #955214;
+}
+
+/* Icons */
+.material-icons {
+  line-height: 35px;
+  position: relative;
+  top: 6px;
+  padding-right: 10px;
+}
+
+/* Logo */
+.logo {
+  height: 25px;
+  float: left;
+  padding-right: 13px;
+}
